@@ -1,0 +1,32 @@
+{
+  "name": "random-global",
+  "version": "0.0.0",
+  "description": "globalize variables under a random alias",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:compedit/random-global.git"
+  },
+  "keywords": [
+    "random",
+    "global",
+    "window",
+    "browser"
+  ],
+  "author": "troy betz <troybetz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/compedit/random-global/issues"
+  },
+  "homepage": "https://github.com/compedit/random-global",
+  "dependencies": {
+    "randomstring": "^1.0.3"
+  },
+  "scripts": {
+    "test": "browserify test/randomglobal-test.js > test/bundle.js"
+  },
+  "devDependencies": {
+    "browserify": "^6.2.0",
+    "tape": "^3.0.2"
+  }
+}
