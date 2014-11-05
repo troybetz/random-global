@@ -5,7 +5,7 @@
 var randomstring = require('randomstring');
 
 /**
- * Expose `globalize
+ * Expose `globalize`
  */
 
 module.exports = globalize;
