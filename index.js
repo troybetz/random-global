@@ -2,7 +2,7 @@
  * Module dependencies
  */
 
-var randomstring = require('randomstring');
+var randomize = require('random-string');
 
 /**
  * Expose `globalize`
@@ -19,7 +19,7 @@ module.exports = globalize;
  */
 
 function globalize(variable) {
-  var alias = randomstring.generate();
+  var alias = randomize();
   window[alias] = variable;
   return alias;
 }

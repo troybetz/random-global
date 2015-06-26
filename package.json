@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/compedit/random-global",
   "dependencies": {
-    "randomstring": "^1.0.3"
+    "random-string": "^0.1.2"
   },
   "scripts": {
     "test": "browserify test/randomglobal-test.js > test/bundle.js"
