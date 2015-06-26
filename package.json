@@ -1,6 +1,6 @@
 {
   "name": "random-global",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "globalize variables under a random alias",
   "main": "index.js",
   "repository": {
